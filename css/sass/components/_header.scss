@@ -1,0 +1,26 @@
+header {
+  position: fixed !important;
+  height: 5rem;
+  background: #ffffff;
+  /* main shadow */
+  box-shadow: $main-shadow;
+  z-index: 5;
+
+  h5 {
+    margin-right: 10%;
+    margin-top: 2%;
+  }
+  .admin-photo {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    left: 4rem;
+    top: 29%;
+    border-radius: 50%;
+    background: url(../images/41688312_2237125146316321_1931414181324521472_o.jpg);
+    background-size: cover;
+    /* main */
+    z-index: 5;
+    border: 1px solid $main-color;
+  }
+}

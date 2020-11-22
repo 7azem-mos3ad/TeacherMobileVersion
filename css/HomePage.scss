@@ -1,0 +1,11 @@
+@import "./sass/helpers/colors";
+@import "./sass/components/buttons";
+@import './sass/components/input';
+@import './sass/components/header';
+
+body {
+  box-sizing: border-box;
+  height: 5000px;
+  font-family: "Tajawal", "Times New Roman", Times, serif;
+  background-color: #f7f6f4;
+}
