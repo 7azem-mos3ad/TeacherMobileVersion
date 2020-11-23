@@ -19,3 +19,6 @@ label {
   color: $main-color !important;
   font-weight: bold !important;
 }
+input[type=radio] {
+display: none;
+}

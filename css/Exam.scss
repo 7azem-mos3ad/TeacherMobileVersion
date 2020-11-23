@@ -1,0 +1,109 @@
+@import "./sass/helpers/colors";
+@import "./sass/components/buttons";
+@import "./sass/components/input";
+@import './sass/components/progress';
+@import './sass/components/endExamModal';
+body {
+  box-sizing: border-box;
+  height: 5000px;
+  font-family: "Tajawal", "Times New Roman", Times, serif;
+  background-color: #f7f6f4;
+  header {
+    position: fixed !important;
+    height: 5rem;
+    margin: 0 !important;
+    background: #ffffff;
+    /* main shadow */
+    box-shadow: $main-shadow;
+    z-index: 5;
+
+    .admin-logo {
+      h5 {
+        margin-right: 4rem;
+        font-weight: bold;
+      }
+    }
+
+    .student-photo {
+      position: absolute;
+      left: 7rem;
+      top: 29%;
+      z-index: 5;
+      span {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  article {
+    .row {
+      .layers {
+        margin-top: 10rem;
+        .student-exam {
+          background-color: #fff;
+          box-shadow: $main-shadow;
+          border-radius: 10px;
+          position: relative;
+          .question-element {
+            margin: 2rem 2rem;
+            width: 100%;
+
+            .question {
+              margin-bottom: 2rem;
+            }
+            .answers {
+              .answer-element {
+                border: 1px solid $main-typo;
+                margin: 1rem;
+                // padding: 1rem;
+                text-align: center;
+                background-color: #f7f6f4;
+                cursor: pointer;
+                label {
+                  display: inline-block;
+                  width: 100%;
+                  height: 100%;
+                  padding: 1rem;
+                  cursor: pointer;
+                  img {
+                    width: 100%;
+                  }
+                }
+              }
+              .answer-element-images {
+                display: inline-block;
+                border: 1px solid $main-typo;
+                margin: 1rem;
+                width: 45%;
+                margin-left: 2%;
+                margin-right: 2%;
+                text-align: center;
+                background-color: #f7f6f4;
+                cursor: pointer;
+                label {
+                  display: inline-block;
+                  width: 100%;
+                  height: 100%;
+                  padding: 1rem;
+                  cursor: pointer;
+                  color: $main-typo !important;
+                  img {
+                    width: 100%;
+                  }
+                }
+              }
+              .selected-answer {
+                background-color: $main-background;
+                border: 1px solid $main-color;
+              }
+            }
+          }
+          button {
+            margin: 1rem 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+

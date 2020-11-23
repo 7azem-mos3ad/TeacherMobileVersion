@@ -35,6 +35,10 @@ label {
   font-weight: bold !important;
 }
 
+input[type=radio] {
+  display: none;
+}
+
 body {
   background-color: #f7f6f4;
   color: #242424;

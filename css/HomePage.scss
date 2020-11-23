@@ -1,11 +1,151 @@
 @import "./sass/helpers/colors";
 @import "./sass/components/buttons";
-@import './sass/components/input';
-@import './sass/components/header';
+@import "./sass/components/input";
+@import "./sass/components/header";
 
 body {
   box-sizing: border-box;
   height: 5000px;
   font-family: "Tajawal", "Times New Roman", Times, serif;
   background-color: #f7f6f4;
+
+  article {
+    .row {
+      .layers {
+        margin-top: 10rem;
+        .student-header {
+          background-color: #fff;
+          height: 18rem;
+          box-shadow: $main-shadow;
+          border-radius: 10px;
+          position: relative;
+          
+          .student-photo {
+            position: absolute;
+            width: 4rem;
+            height: 4rem;
+            left: 46%;
+            top: 10%;
+            border-radius: 50%;
+            background: url(../images/41688312_2237125146316321_1931414181324521472_o.jpg);
+            background-size: cover;
+            /* main */
+            z-index: 5;
+            border: 1px solid $main-color;
+          }
+          h6 {
+            position: absolute;
+            top: 37%;
+            left: 40%;
+          }
+          p {
+            position: absolute;
+            top: 70%;
+            left: 15%;
+            span {
+              margin-left: 1rem;
+              display: inline-block;
+            }
+          }
+        }
+        .student-exam-information {
+          background-color: #fff;
+          height: 18rem;
+          box-shadow: $main-shadow;
+          border-radius: 10px;
+          position: relative;
+          margin-top: 1rem;
+
+          .exam-information {
+            width: 40%;
+
+            .svg-content {
+              float: right;
+
+              svg {
+                margin-top: 3rem;
+                margin-right: 3rem;
+              }
+            }
+            h5,
+            p {
+              text-align: right !important;
+              margin: 1rem 3rem 0 0 !important;
+              span {
+                margin-left: 1rem;
+              }
+            }
+          }
+          button {
+            float: left;
+            margin-left: 5rem;
+          }
+        }
+
+        .student-others-choice {
+          background-color: #fff;
+          height: 18rem;
+          box-shadow: $main-shadow;
+          border-radius: 10px;
+          position: relative;
+          margin-top: 1rem;
+          text-align: center;
+          svg {
+            margin-top: 2rem;
+          }
+        }
+
+        .student-payment {
+          margin-top: 1rem;
+          margin-right: 0rem;
+
+          .student-payment-table {
+            background-color: #fff;
+          box-shadow: $main-shadow;
+          border-radius: 10px;
+          position: relative;
+          h4 {
+            margin: 2rem 2rem;
+          }
+          table {
+            text-align: center;
+            margin: 2rem 0rem 2rem 0;
+
+            th {
+              color: $main-color;
+            }
+            td {
+              color: $main-typo;
+              font-size: 10px;
+            }
+          }
+          p{
+            margin-right: 2rem;
+            padding-bottom: 2rem;
+            color: $main-typo;
+          }
+          }
+        }
+        .student-information {
+          margin-top: 1rem;
+
+          .col-sm-4 {
+            background-color: #fff;
+          box-shadow: $main-shadow;
+          border-radius: 10px;
+          position: relative;
+          margin-right: 1rem;
+          h4 {
+            margin: 2rem 0;
+          }
+          h2 {
+            font-weight: bold;
+            color: #EB5757;
+            margin-bottom: 2rem;
+          }
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,154 @@
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  left: 1rem;
+  top: 0rem;
+  background-color: #fd7b38;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+}
+
+.ok-button {
+  background-color: #27AE60;
+}
+
+input {
+  background-color: #f8f8f8 !important;
+  border: none !important;
+  color: #242424;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none !important;
+  background: url("../../../images/selectarrow.svg") #fd7b38 no-repeat 0 !important;
+  /* Better placement regardless of input width */
+  background-color: #f8f8f8 !important;
+  color: #242424;
+}
+
+label {
+  color: #fd7b38 !important;
+  font-weight: bold !important;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 0.4rem;
+  background-color: #4CAF50;
+}
+
+.end-exam-modal .modal-header h5 {
+  color: #EB5757;
+}
+.end-exam-modal .modal-body p {
+  font-size: 14px;
+}
+.end-exam-modal .modal-footer .confirm-end {
+  background-color: #EB5757;
+}
+
+body {
+  box-sizing: border-box;
+  height: 5000px;
+  font-family: "Tajawal", "Times New Roman", Times, serif;
+  background-color: #f7f6f4;
+}
+body header {
+  position: fixed !important;
+  height: 5rem;
+  margin: 0 !important;
+  background: #ffffff;
+  /* main shadow */
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 5;
+}
+body header .admin-logo h5 {
+  margin-right: 4rem;
+  font-weight: bold;
+}
+body header .student-photo {
+  position: absolute;
+  left: 7rem;
+  top: 29%;
+  z-index: 5;
+}
+body header .student-photo span {
+  margin-left: 1rem;
+}
+body article .row .layers {
+  margin-top: 10rem;
+}
+body article .row .layers .student-exam {
+  background-color: #fff;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+body article .row .layers .student-exam .question-element {
+  margin: 2rem 2rem;
+  width: 100%;
+}
+body article .row .layers .student-exam .question-element .question {
+  margin-bottom: 2rem;
+}
+body article .row .layers .student-exam .question-element .answers .answer-element {
+  border: 1px solid #242424;
+  margin: 1rem;
+  text-align: center;
+  background-color: #f7f6f4;
+  cursor: pointer;
+}
+body article .row .layers .student-exam .question-element .answers .answer-element label {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  cursor: pointer;
+}
+body article .row .layers .student-exam .question-element .answers .answer-element label img {
+  width: 100%;
+}
+body article .row .layers .student-exam .question-element .answers .answer-element-images {
+  display: inline-block;
+  border: 1px solid #242424;
+  margin: 1rem;
+  width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  background-color: #f7f6f4;
+  cursor: pointer;
+}
+body article .row .layers .student-exam .question-element .answers .answer-element-images label {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  cursor: pointer;
+  color: #242424 !important;
+}
+body article .row .layers .student-exam .question-element .answers .answer-element-images label img {
+  width: 100%;
+}
+body article .row .layers .student-exam .question-element .answers .selected-answer {
+  background-color: rgba(253, 123, 56, 0.2);
+  border: 1px solid #fd7b38;
+}
+body article .row .layers .student-exam button {
+  margin: 1rem 1rem;
+}
+
+/*# sourceMappingURL=exam.css.map */

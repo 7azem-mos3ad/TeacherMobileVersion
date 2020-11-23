@@ -1,0 +1,36 @@
+@import "./sass/helpers/colors";
+@import "./sass/components/buttons";
+@import "./sass/components/input";
+
+body {
+  background-color: #f7f6f4;
+  color: $main-typo;
+  font-family: "Tajawal", "Times New Roman", Times, serif;
+  .form {
+    display: table-cell;
+    vertical-align: middle;
+    h4 {
+      font-weight: bold;
+      margin-top: 5rem;
+    }
+    .login-header-information {
+      color: $main-color !important;
+    }
+
+    .layer {
+      background-color: #fff;
+      height: 18rem;
+      box-shadow: $main-shadow;
+      border-radius: 10px;
+      position: relative;
+      margin-top: 1rem;
+      text-align: center;
+      h4 {
+        color: #27AE60;
+      }
+      p {
+        color: $main-typo;
+      }
+    }
+  }
+}

@@ -35,19 +35,24 @@ label {
   font-weight: bold !important;
 }
 
+input[type=radio] {
+  display: none;
+}
+
 header {
   position: fixed !important;
   height: 5rem;
+  margin: 0 !important;
   background: #ffffff;
   /* main shadow */
   box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
   z-index: 5;
 }
-header h5 {
-  margin-right: 10%;
-  margin-top: 2%;
+header .admin-logo h5 {
+  margin-right: 4rem;
+  font-weight: bold;
 }
-header .admin-photo {
+header .student-photo {
   position: absolute;
   width: 2rem;
   height: 2rem;
@@ -67,5 +72,132 @@ body {
   font-family: "Tajawal", "Times New Roman", Times, serif;
   background-color: #f7f6f4;
 }
+body article .row .layers {
+  margin-top: 10rem;
+}
+body article .row .layers .student-header {
+  background-color: #fff;
+  height: 18rem;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+body article .row .layers .student-header .student-photo {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  left: 46%;
+  top: 10%;
+  border-radius: 50%;
+  background: url(../images/41688312_2237125146316321_1931414181324521472_o.jpg);
+  background-size: cover;
+  /* main */
+  z-index: 5;
+  border: 1px solid #fd7b38;
+}
+body article .row .layers .student-header h6 {
+  position: absolute;
+  top: 37%;
+  left: 40%;
+}
+body article .row .layers .student-header p {
+  position: absolute;
+  top: 70%;
+  left: 15%;
+}
+body article .row .layers .student-header p span {
+  margin-left: 1rem;
+  display: inline-block;
+}
+body article .row .layers .student-exam-information {
+  background-color: #fff;
+  height: 18rem;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  margin-top: 1rem;
+}
+body article .row .layers .student-exam-information .exam-information {
+  width: 40%;
+}
+body article .row .layers .student-exam-information .exam-information .svg-content {
+  float: right;
+}
+body article .row .layers .student-exam-information .exam-information .svg-content svg {
+  margin-top: 3rem;
+  margin-right: 3rem;
+}
+body article .row .layers .student-exam-information .exam-information h5,
+body article .row .layers .student-exam-information .exam-information p {
+  text-align: right !important;
+  margin: 1rem 3rem 0 0 !important;
+}
+body article .row .layers .student-exam-information .exam-information h5 span,
+body article .row .layers .student-exam-information .exam-information p span {
+  margin-left: 1rem;
+}
+body article .row .layers .student-exam-information button {
+  float: left;
+  margin-left: 5rem;
+}
+body article .row .layers .student-others-choice {
+  background-color: #fff;
+  height: 18rem;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  margin-top: 1rem;
+  text-align: center;
+}
+body article .row .layers .student-others-choice svg {
+  margin-top: 2rem;
+}
+body article .row .layers .student-payment {
+  margin-top: 1rem;
+  margin-right: 0rem;
+}
+body article .row .layers .student-payment .student-payment-table {
+  background-color: #fff;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+body article .row .layers .student-payment .student-payment-table h4 {
+  margin: 2rem 2rem;
+}
+body article .row .layers .student-payment .student-payment-table table {
+  text-align: center;
+  margin: 2rem 0rem 2rem 0;
+}
+body article .row .layers .student-payment .student-payment-table table th {
+  color: #fd7b38;
+}
+body article .row .layers .student-payment .student-payment-table table td {
+  color: #242424;
+  font-size: 10px;
+}
+body article .row .layers .student-payment .student-payment-table p {
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+  color: #242424;
+}
+body article .row .layers .student-information {
+  margin-top: 1rem;
+}
+body article .row .layers .student-information .col-sm-4 {
+  background-color: #fff;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  margin-right: 1rem;
+}
+body article .row .layers .student-information .col-sm-4 h4 {
+  margin: 2rem 0;
+}
+body article .row .layers .student-information .col-sm-4 h2 {
+  font-weight: bold;
+  color: #EB5757;
+  margin-bottom: 2rem;
+}
 
-/*# sourceMappingURL=homepage.css.map */
+/*# sourceMappingURL=HomePage.css.map */
