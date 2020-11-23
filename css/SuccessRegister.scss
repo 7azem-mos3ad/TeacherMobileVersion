@@ -25,6 +25,26 @@ body {
       position: relative;
       margin-top: 1rem;
       text-align: center;
+      .spinner{
+        
+        animation: spinner .5s linear;
+        margin-left: auto;
+        margin-right: auto;
+        svg {
+          margin-top: 3rem;
+        }
+        
+    }
+
+    @keyframes spinner{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(-360deg);
+
+        }
+    }
       h4 {
         color: #27AE60;
       }

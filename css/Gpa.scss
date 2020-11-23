@@ -1,0 +1,57 @@
+@import "./sass/helpers/colors";
+@import './sass/components/buttons';
+
+body {
+  background-color: #f7f6f4;
+  color: $main-typo;
+  font-family: "Tajawal", "Times New Roman", Times, serif;
+  header {
+    top: 0;
+    position: fixed !important;
+    height: 5rem;
+    margin: 0 !important;
+    background: #ffffff;
+    /* main shadow */
+    box-shadow: $main-shadow;
+    z-index: 5;
+
+    .admin-logo {
+      h5 {
+        margin-right: 4rem;
+        font-weight: bold;
+      }
+    }
+
+    .student-photo {
+      position: absolute;
+      left: 7rem;
+      top: 29%;
+      z-index: 5;
+      color: $main-color;
+      font-weight: bold !important;
+      span {
+        margin-left: 1rem;
+      }
+    }
+  }
+  .layer {
+    background-color: #fff;
+    height: 18rem;
+    box-shadow: $main-shadow;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10rem;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    h2 {
+      padding-top: 3rem;
+    }
+    h3 {
+      margin-top: 2rem;
+      color: $main-color;
+      margin-bottom: 2rem;
+    }
+  }
+}

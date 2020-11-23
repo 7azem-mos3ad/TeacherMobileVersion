@@ -1,0 +1,67 @@
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  left: 1rem;
+  top: 0rem;
+  background-color: #fd7b38;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+}
+
+.ok-button {
+  background-color: #27AE60;
+}
+
+body {
+  background-color: #f7f6f4;
+  color: #242424;
+  font-family: "Tajawal", "Times New Roman", Times, serif;
+}
+body header {
+  top: 0;
+  position: fixed !important;
+  height: 5rem;
+  margin: 0 !important;
+  background: #ffffff;
+  /* main shadow */
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 5;
+}
+body header .admin-logo h5 {
+  margin-right: 4rem;
+  font-weight: bold;
+}
+body header .student-photo {
+  position: absolute;
+  left: 7rem;
+  top: 29%;
+  z-index: 5;
+  color: #fd7b38;
+  font-weight: bold !important;
+}
+body header .student-photo span {
+  margin-left: 1rem;
+}
+body .layer {
+  background-color: #fff;
+  height: 18rem;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  margin-top: 10rem;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+body .layer h2 {
+  padding-top: 3rem;
+}
+body .layer h3 {
+  margin-top: 2rem;
+  color: #fd7b38;
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=gpa.css.map */

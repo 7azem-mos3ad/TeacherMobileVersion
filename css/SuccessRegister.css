@@ -64,6 +64,22 @@ body .form .layer {
   margin-top: 1rem;
   text-align: center;
 }
+body .form .layer .spinner {
+  animation: spinner 0.5s linear;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .form .layer .spinner svg {
+  margin-top: 3rem;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
 body .form .layer h4 {
   color: #27AE60;
 }
@@ -71,4 +87,4 @@ body .form .layer p {
   color: #242424;
 }
 
-/*# sourceMappingURL=successregister.css.map */
+/*# sourceMappingURL=SuccessRegister.css.map */

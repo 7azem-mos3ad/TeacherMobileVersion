@@ -147,8 +147,11 @@ body article .row .layers .student-exam .question-element .answers .selected-ans
   background-color: rgba(253, 123, 56, 0.2);
   border: 1px solid #fd7b38;
 }
+body article .row .layers .student-exam .question-element .answers .green {
+  background-color: #080;
+}
 body article .row .layers .student-exam button {
   margin: 1rem 1rem;
 }
 
-/*# sourceMappingURL=exam.css.map */
+/*# sourceMappingURL=Exam.css.map */
