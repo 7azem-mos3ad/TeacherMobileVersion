@@ -12,3 +12,11 @@ $('.answer-element-images input').on( "click", function() {
     selectedAnswer.addClass('selected-answer');
   
   });
+  
+  document.querySelector("button").onclick = function() {
+    //disable
+    this.disabled = true;
+    
+    console.log(1234);
+    //do some validation stuff
+}

@@ -104,11 +104,20 @@ body article .row .layers .student-exam .question-element {
 body article .row .layers .student-exam .question-element .question {
   margin-bottom: 2rem;
 }
+body article .row .layers .student-exam .question-element .answers .corrct-answer {
+  background: rgba(39, 174, 96, 0.2) !important;
+  border: 2px solid #27AE60 !important;
+}
+body article .row .layers .student-exam .question-element .answers .wrong-answer {
+  background: rgba(235, 87, 87, 0.2) !important;
+  border: 2px solid #EB5757 !important;
+}
 body article .row .layers .student-exam .question-element .answers .answer-element {
   border: 1px solid #242424;
   margin: 1rem;
   text-align: center;
   background-color: #f7f6f4;
+  border-radius: 5px;
   cursor: pointer;
 }
 body article .row .layers .student-exam .question-element .answers .answer-element label {

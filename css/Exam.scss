@@ -52,12 +52,21 @@ body {
               margin-bottom: 2rem;
             }
             .answers {
+              .corrct-answer{
+                background: rgba(39, 174, 96, 0.2) !important;
+                border: 2px solid #27AE60 !important;
+              }
+              .wrong-answer {
+                background: rgba(235, 87, 87, 0.2) !important;
+                border: 2px solid #EB5757 !important;
+              }
               .answer-element {
                 border: 1px solid $main-typo;
                 margin: 1rem;
                 // padding: 1rem;
                 text-align: center;
                 background-color: #f7f6f4;
+                border-radius: 5px;
                 cursor: pointer;
                 label {
                   display: inline-block;
@@ -70,6 +79,7 @@ body {
                   }
                 }
               }
+              
               .answer-element-images {
                 display: inline-block;
                 border: 1px solid $main-typo;
@@ -96,6 +106,7 @@ body {
                 background-color: $main-background;
                 border: 1px solid $main-color;
               }
+              
               .green {
                 background-color: #080;
               }
